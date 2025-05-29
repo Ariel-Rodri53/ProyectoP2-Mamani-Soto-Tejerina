@@ -1,2 +1,4 @@
 # Practica2025
-Repositorio dedicado a Práctica Profesionalizante II
+Readme dedicado a Práctica Profesionalizante II
+
+Integrantes: Mamani Ariel - Soto Benjamin - Tejerina Ruben
