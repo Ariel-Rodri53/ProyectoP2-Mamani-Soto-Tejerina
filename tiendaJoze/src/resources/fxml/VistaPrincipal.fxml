@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane fx:id="panelPrincipal" styleClass="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tienda.controlador.ControladorPrincipal">
+    <stylesheets>
+        /resources/css/estilos.css
+    </stylesheets>
+    <top>
+        <MenuBar styleClass="menu-bar">
+            <Menu text="Archivo">
+                <MenuItem text="Salir" onAction="#manejarSalir" />
+            </Menu>
+            <Menu text="Ayuda">
+                <MenuItem text="Acerca de" onAction="#manejarAcercaDe" />
+            </Menu>
+        </MenuBar>
+    </top>
+    <left>
+        <VBox styleClass="vbox" spacing="10" style="-fx-padding: 10;">
+            <Button text="Gestión de Productos" fx:id="botonProductos" onAction="#mostrarGestionProductos" styleClass="button" style="-fx-pref-width: 150;" />
+            <Button text="Gestión de Ventas" fx:id="botonVentas" onAction="#mostrarGestionVentas" styleClass="button" style="-fx-pref-width: 150;" />
+            <Button text="Gestión de Clientes" fx:id="botonClientes" onAction="#mostrarGestionClientes" styleClass="button" style="-fx-pref-width: 150;" />
+            <Button text="Gestión de Proveedores" fx:id="botonProveedores" onAction="#mostrarGestionProveedores" styleClass="button" style="-fx-pref-width: 150;" />
+            <Button text="Gestión de Compras" fx:id="botonCompras" onAction="#mostrarGestionCompras" styleClass="button" style="-fx-pref-width: 150;" />
+        </VBox>
+    </left>
+    <center>
+        <StackPane fx:id="panelContenido" />
+    </center>
+</BorderPane>

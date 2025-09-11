@@ -1,0 +1,100 @@
+.root {
+    -fx-background-color: #FFF0F5; /* Rosa claro */
+}
+/* Columna de botones izquierda */
+.vbox {
+    -fx-background-color: #FFE4E1; /* Rosa pálido */
+    -fx-border-color: #000000; /* Dorado */
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+/* Botones */
+.button {
+    -fx-background-color: #FF69B4; /* Rosa intenso */
+    -fx-text-fill: #000000; /* Dorado */
+    -fx-border-color: #000000;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #FFB6C1; /* Rosa más claro */
+}
+/*  */
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000; /* Rosa intenso */
+    -fx-border-radius: 5;
+}
+
+.text-field:error {
+    -fx-border-color: #FF4040; /* Rojo para errores */
+    -fx-border-width: 2px;
+}
+/*  */
+.radio-button {
+    -fx-text-fill: #000000; /* Rosa intenso */
+}
+/*  */
+.combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000; /* Rosa intenso */
+    -fx-border-radius: 5;
+}
+/*  */
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000; /* Dorado */
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+/*  */
+.table-view .column-header {
+    -fx-background-color: #FF69B4; /* Rosa intenso */
+    -fx-text-fill: #000000; /* Dorado */
+    -fx-font-size: 14px;
+    -fx-padding: 8 0 8 0; /* Ajustar padding para centrar el texto */
+    -fx-alignment: CENTER; /* Alinear texto al centro */
+    -fx-pref-height: 30.0; /* Asegurar suficiente altura */
+}
+/*  */
+.table-view .column-header .label {
+    -fx-text-fill: #000000; /* Dorado para el texto */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+/*  */
+.table-row-cell:inactivo {
+    -fx-background-color: #ff7062; /* Rojo claro para inactivos */
+}
+/*  */
+.table-row-cell:promocion {
+    -fx-background-color: #8fff61; /* Verde claro para promociones */
+}
+/*  */
+#textoPrecioFinal {
+    -fx-background-color: #FFE4E1; /* Rosa pálido */
+    -fx-font-weight: bold;
+    -fx-border-color: #FFD700; /* Dorado */
+    -fx-border-radius: 5;
+}
+/*  */
+.label {
+    -fx-text-fill: #000000; /* Rosa intenso */
+    -fx-font-size: 14px;
+}
+/*  */
+.header {
+    -fx-text-fill: #000000; /* Rosa intenso */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 10 0;
+}
+/*  */
+.subheader {
+    -fx-text-fill: #000000; /* Rosa intenso */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 5 0;
+}
